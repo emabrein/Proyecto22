@@ -469,11 +469,11 @@ GameObject:
   m_Component:
   - component: {fileID: 994087791}
   - component: {fileID: 994087790}
+  - component: {fileID: 994087792}
   - component: {fileID: 994087796}
   - component: {fileID: 994087795}
   - component: {fileID: 994087794}
   - component: {fileID: 994087793}
-  - component: {fileID: 994087792}
   m_Layer: 0
   m_Name: Rat 2
   m_TagString: Untagged
