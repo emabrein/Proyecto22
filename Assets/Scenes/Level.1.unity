@@ -222,7 +222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f6771b8848c54bbdca02630b57ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCollected: 0
 --- !u!60 &49368974
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2301,7 +2300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -7.4000244, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685414136
@@ -4250,7 +4249,6 @@ GameObject:
   - component: {fileID: 1234612640}
   - component: {fileID: 1234612639}
   - component: {fileID: 1234612638}
-  - component: {fileID: 1234612641}
   m_Layer: 0
   m_Name: Continue.btn
   m_TagString: Untagged
@@ -4353,19 +4351,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234612636}
   m_CullTransparentMesh: 0
---- !u!114 &1234612641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234612636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b72153846eaa454bb1901b1ead9b2c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseMenuUI: {fileID: 0}
 --- !u!1 &1399757184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,7 +4382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f6771b8848c54bbdca02630b57ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCollected: 0
 --- !u!60 &1399757186
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6026,7 +6010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f6771b8848c54bbdca02630b57ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCollected: 0
 --- !u!60 &1658526994
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7137,7 +7120,7 @@ GameObject:
   - component: {fileID: 1892499754}
   - component: {fileID: 1892499753}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Queso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7424,8 +7407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da134c4e9416d1c49a8ffdd33c2e9952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cheeseCounter: {fileID: 0}
-  cheese: 0
 --- !u!114 &2082183223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7438,17 +7419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd6018c24c9cf964a96791fbee154f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RB2D: {fileID: 0}
-  SR: {fileID: 0}
-  direction: {x: 0, y: 0, z: 0}
-  MovementSpeed: 1
-  movVel: 5
-  velX: 0
-  velY: 0
-  vista: 1
-  rigCuerpo: {fileID: 0}
-  Salto: 6
-  enGround: 0
 --- !u!60 &2082183224
 PolygonCollider2D:
   m_ObjectHideFlags: 0
