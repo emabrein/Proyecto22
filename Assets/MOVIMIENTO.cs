@@ -51,7 +51,12 @@ public class MOVIMIENTO : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.tag == "ground")
+        if (collision.transform.tag == "ground")
+        {
+            enGround = true;
+        }
+
+        else if (collision.transform.tag == "Trampa")
         {
             enGround = true;
         }

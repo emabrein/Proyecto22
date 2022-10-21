@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Threading;
 
-public class Muerte : MonoBehaviour
+public class MuerteV2 : MonoBehaviour
 {
+    int vida = 3;
+
     void Start()
     {
         
@@ -15,8 +17,15 @@ public class Muerte : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trampa"))
         {
-            Thread.Sleep(100);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (vida > 0)
+            {
+                vida --;
+            }
+            else if (vida <= 0)
+            {
+                Thread.Sleep(100);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 }
