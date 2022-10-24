@@ -411,8 +411,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275.9, y: 128.7}
-  m_SizeDelta: {x: 144.06927, y: 49.784668}
+  m_AnchoredPosition: {x: -290.3, y: 132.3}
+  m_SizeDelta: {x: 124.86908, y: 43.149826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52205344
 MonoBehaviour:
@@ -482,6 +482,7 @@ RectTransform:
   - {fileID: 52205343}
   - {fileID: 897128288}
   - {fileID: 1634914111}
+  - {fileID: 498286338}
   m_Father: {fileID: 782240723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1859,6 +1860,96 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &498286337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498286338}
+  - component: {fileID: 498286341}
+  - component: {fileID: 498286340}
+  - component: {fileID: 498286339}
+  m_Layer: 0
+  m_Name: corazones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &498286338
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498286337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 91298762}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -260.9, y: 132.6}
+  m_SizeDelta: {x: 100.77757, y: 25.213985}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &498286339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498286337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b1fba397a97c2478d0dfcce1589955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corazones:
+  - {fileID: 21300006, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+  - {fileID: 21300004, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+  - {fileID: 21300002, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+  - {fileID: 21300000, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+--- !u!114 &498286340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498286337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &498286341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498286337}
+  m_CullTransparentMesh: 0
 --- !u!1 &550880633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,8 +3567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -329.4, y: 122.89}
-  m_SizeDelta: {x: 85.47221, y: 65.121704}
+  m_AnchoredPosition: {x: -336.7, y: 127.2}
+  m_SizeDelta: {x: 74.08128, y: 56.442886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897128289
 MonoBehaviour:
@@ -6156,8 +6247,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -345.2, y: 122.89}
-  m_SizeDelta: {x: 44.4924, y: 41.455322}
+  m_AnchoredPosition: {x: -354.46, y: 128.69}
+  m_SizeDelta: {x: 38.562866, y: 35.930542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1634914112
 MonoBehaviour:
