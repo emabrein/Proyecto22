@@ -8,9 +8,7 @@ using UnityEngine.UI;
 public class MuerteV2 : MonoBehaviour
 {
     public Sprite[] corazones;
-
-
-    int vida = 3;
+    public int vida = 3;
 
     void Start()
     {
@@ -23,9 +21,8 @@ public class MuerteV2 : MonoBehaviour
         {
             if (vida > 0)
             {
-                vida --;
+                vida--;
                 this.GetComponent<Image>().sprite = corazones[pos];
-
             }
             else if (vida <= 0)
             {

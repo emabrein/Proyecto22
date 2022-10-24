@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 498286337}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b1fba397a97c2478d0dfcce1589955, type: 3}
+  m_Script: {fileID: 11500000, guid: 23b060bfaec4307479f4eeae3688a580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   corazones:
@@ -1915,6 +1915,7 @@ MonoBehaviour:
   - {fileID: 21300004, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
   - {fileID: 21300002, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
   - {fileID: 21300000, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
+  vidas: 3
 --- !u!114 &498286340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8023,6 +8024,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ef1a596c036f84b88d4349cb8a27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  corazones: []
+  vida: 3
 --- !u!1 &2128723377
 GameObject:
   m_ObjectHideFlags: 0
