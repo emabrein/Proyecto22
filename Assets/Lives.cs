@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class Lives : MonoBehaviour
 {
     public Sprite[] corazones;
+    Image LifeUI;
     public int vidas = 3;
 
     // Start is called before the first frame update
     void Start()
     {
-      CambioVida (3);  
+        LifeUI = GetComponent<Image>();
+        CambioVida (3);  
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class Lives : MonoBehaviour
 
     public void CambioVida( int pos)
     {
-        this.GetComponent<Image>().sprite = corazones [pos];
+        LifeUI.sprite = corazones [pos];
     }
 
 }
