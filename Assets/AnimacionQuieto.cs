@@ -6,8 +6,8 @@ public class AnimacionQuieto : MonoBehaviour
 {
     Animator anim;
     bool Quieto = false;
-    float velX;
-
+    bool Caminar = false;
+    bool Saltar = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +16,10 @@ public class AnimacionQuieto : MonoBehaviour
     }
 
     // Update is called once per frame
+
     void Update()
     {
-        if (velX != 0)
+        if (Caminar == false && Saltar == false)
         {
             Quieto = true;
             anim.SetBool("Quieto", true);

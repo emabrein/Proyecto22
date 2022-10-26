@@ -18,18 +18,17 @@ public class AnimacionSaltar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)))
-      {
-        Saltar = true;
-        anim.SetBool("Saltar", true);
-      }
+        //if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)))
+        //{
+        //  Saltar = true;
+        //  anim.SetBool("Saltar", true);
+        //}
 
-      else
-      {
-        Saltar = false;
-      }
-
-     
-      
+        //else if ((Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.W)))
+        //{
+        //  Saltar = false;
+        //  anim.SetBool("Saltar", false);
+        //}
+        anim.SetFloat("Y vel", GetComponent<Rigidbody2D>().velocity.y);
     }
 }

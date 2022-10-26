@@ -7,7 +7,6 @@ public class AnimacionCaminar : MonoBehaviour
     Animator anim;
     bool Caminar = false;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -21,13 +20,14 @@ public class AnimacionCaminar : MonoBehaviour
       {
         Caminar = true;
         anim.SetBool("Caminar", true);
+      
       }
 
-      else
+      else if ((Input.GetKeyUp(KeyCode.A) || (Input.GetKeyUp(KeyCode.D) || (Input.GetKeyUp(KeyCode.LeftArrow) || (Input.GetKeyUp(KeyCode.RightArrow))))))
       {
         Caminar = false;
+        anim.SetBool("Caminar", false);
       }
        
-      
     }
  }
