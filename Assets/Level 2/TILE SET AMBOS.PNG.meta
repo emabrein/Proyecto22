@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 8e066699cd50b3042b928c8a1d1b2a9e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: TILE SET AMBOS_0
+    21300002: TILE SET AMBOS_1
+    21300004: TILE SET AMBOS_2
+    21300006: TILE SET AMBOS_3
+    21300008: TILE SET AMBOS_4
+    21300010: TILE SET AMBOS_5
+    21300012: TILE SET AMBOS_7
+    21300014: TILE SET AMBOS_10
+    21300016: TILE SET AMBOS_11
+    21300018: TILE SET AMBOS_12
+    21300020: TILE SET AMBOS_13
+    21300022: TILE SET AMBOS_14
+    21300024: TILE SET AMBOS_15
+    21300026: TILE SET AMBOS_16
+    21300028: TILE SET AMBOS_17
+    21300030: TILE SET AMBOS_18
+    21300032: TILE SET AMBOS_21
+    21300034: TILE SET AMBOS_22
+    21300036: TILE SET AMBOS_23
+    21300038: TILE SET AMBOS_24
+    21300040: TILE SET AMBOS_25
+    21300042: TILE SET AMBOS_26
+    21300044: TILE SET AMBOS_27
+    21300046: TILE SET AMBOS_28
+    21300048: TILE SET AMBOS_29
+    21300050: TILE SET AMBOS_30
+    21300052: TILE SET AMBOS_6
+    21300054: TILE SET AMBOS_8
+    21300056: TILE SET AMBOS_9
+    21300058: TILE SET AMBOS_19
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -45,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,7 +101,647 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TILE SET AMBOS_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 111
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18deca88d1c5fa34e84fc0d5961fcc6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 86
+        width: 110
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a193d44ac68d84a983fd3a8a86d881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 111
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5aec7a0bde7b746b420c094ae976d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 106
+        width: 43
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58096d6e54581e40b08a3dc734e1caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b4ffe399eeef4eb63d4a6e94eb947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 66
+        width: 18
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e172962f314714cbb406af1ed2ad6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 115
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 6}
+        - {x: -29.5, y: 5}
+        - {x: -57.5, y: 8}
+        - {x: -57.5, y: -8}
+        - {x: 57.5, y: -8}
+        - {x: 57.5, y: 1}
+        - {x: 53.5, y: 6}
+      - - {x: -27.5, y: 5}
+        - {x: -27.5, y: 5}
+        - {x: 28.5, y: 5}
+        - {x: 30.5, y: 5}
+        - {x: 30.5, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65aef1733a0646498364d81f839c434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 33
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 14}
+        - {x: -6, y: 14}
+        - {x: -6, y: -14}
+        - {x: -3, y: -14}
+        - {x: -2, y: -11}
+        - {x: -2, y: -1}
+        - {x: 0, y: 2}
+        - {x: 6, y: 2}
+      - - {x: 0, y: 1}
+        - {x: -2, y: -2}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: -2, y: -9}
+        - {x: -2, y: -1}
+        - {x: 0, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bd685beeca9bf479d0f702a2d0a2c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 49
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd079d987275c64890f82146bb374a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 48
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05048525a71ce4cb509359e63db63e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35eb48b0ea2a343aef4767118f9798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 45
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a4f16d39dcb294f80790a6aa088888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 45
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a5e69d947aab94f93a8fbfbfe971b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 45
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78681fa8a209b3446a0db80a0bab92dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 45
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c87d610d5ff1334fa65a0ec8bc97844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 48
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63213b3e55ae5a84faa2d9296871c5a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 33
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 6.5}
+        - {x: -6.5, y: 2.5}
+        - {x: 3.5, y: -6.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 6.5, y: 3.5}
+        - {x: 2.5, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd79473bff3e3444885d721231959e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 113
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 6.5}
+        - {x: -56.5, y: -1.5}
+        - {x: -38.5, y: -1.5}
+        - {x: 7.5, y: -1.5}
+        - {x: 36.5, y: -2.5}
+        - {x: 56.5, y: -6.5}
+        - {x: 56.5, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6733d84c02aa5e54ab2df9c97ad248dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1219b5df90c698341b89a487b78bbc93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd427cbf6eeda74bb96a06357fb54d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 33
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e7b186cb37b6d4ead96581949bbc83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c02b3896da94dd43a7388ad1eb06464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 126
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd7898c3b412a4dafe8e9a3edf2dca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 121
+        width: 4
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515e293ad821aec44b1d30cc110d58da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 108
+        width: 3
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142687557d77a044e9b7f58b5187ed41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_30
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 108
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff29eb5f69ef714895e1d29505d6734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 35
+        width: 9
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2193c6eab894f41b908e6a2fde16e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 35
+        width: 14
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41285a414f6d1847a08515665b301d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_9
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 34
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783a8d58d07c00d42be12bc73ebf4776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE SET AMBOS_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 102
+        width: 19
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08403386caa59274ab9b53e4b61eae91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
