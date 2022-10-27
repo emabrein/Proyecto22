@@ -12,7 +12,7 @@ public class MuerteV2 : MonoBehaviour
     
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F))
+        if(Input.GetKeyDown(KeyCode.R))
         {
             GetHit();
         }
@@ -24,7 +24,7 @@ public class MuerteV2 : MonoBehaviour
     }
     public void GetHit()
     {
-        if (vida >= 0)
+        if (vida > 0)
         {
             vida--;
             lifeUI.CambioVida(vida);
