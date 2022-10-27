@@ -8,15 +8,13 @@ public class MOVIMIENTO : MonoBehaviour
     SpriteRenderer SR;
     Vector3 direction;
     float MovementSpeed = 1;
-
     float movVel = 5f;
     float velX;
     float velY;
     bool vista = true;
     Rigidbody2D rigCuerpo;
 
-    public float Salto = 6f;
-    bool enGround = true;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -37,29 +35,6 @@ public class MOVIMIENTO : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rigCuerpo.velocity.y;
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
-
-        if(Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.UpArrow)||Input.GetKeyDown(KeyCode.W))
-        {
-            if (enGround)
-            {
-                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, Salto);
-                enGround = false;
-            }
-            
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.tag == "ground")
-        {
-            enGround = true;
-        }
-
-        else if (collision.transform.tag == "Trampa")
-        {
-            enGround = true;
-        }
     }
 
     void LateUpdate()
@@ -67,12 +42,12 @@ public class MOVIMIENTO : MonoBehaviour
         Vector3 localScale = transform.localScale;
         if (velX > 0)
         {
-            vista = true;   
-        } 
+            vista = true;
+        }
 
         else if (velX < 0)
         {
-            vista = false;  
+            vista = false;
         }
 
         if (((vista) && (localScale.x < 0)) || ((!vista) && (localScale.x > 0)))
@@ -82,5 +57,5 @@ public class MOVIMIENTO : MonoBehaviour
 
         transform.localScale = localScale;
     }
-  
+
 }
