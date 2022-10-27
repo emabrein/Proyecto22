@@ -30,6 +30,6 @@ public class AnimacionQuieto : MonoBehaviour
         {
             Quieto = false;
         } 
-
+        
     }
 }
