@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 291239826}
   m_Layer: 0
   m_Name: poti
-  m_TagString: Untagged
+  m_TagString: Slower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

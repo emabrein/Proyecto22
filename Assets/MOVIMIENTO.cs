@@ -14,8 +14,6 @@ public class MOVIMIENTO : MonoBehaviour
     bool vista = true;
     Rigidbody2D rigCuerpo;
 
-    private float boostTimer = 0;
-    private bool boosting = false;
   
 
     // Start is called before the first frame update
@@ -39,28 +37,9 @@ public class MOVIMIENTO : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rigCuerpo.velocity.y;
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
-
-        if (boosting)
-        {
-            boostTimer += Time.deltaTime;
-            if (boostTimer >= 1)
-            {
-                MovementSpeed = 20;
-                boostTimer = 0;
-                boosting = false;
-            }
-
-        }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Slower")
-            boosting = true;
-            MovementSpeed = 1;
-            Destroy(other.gameObject);
-    }
-
+    
     void LateUpdate()
     {
         Vector3 localScale = transform.localScale;
