@@ -7996,8 +7996,8 @@ GameObject:
   - component: {fileID: 2082183229}
   - component: {fileID: 2082183231}
   - component: {fileID: 2082183232}
-  - component: {fileID: 2082183233}
   - component: {fileID: 2082183234}
+  - component: {fileID: 2082183223}
   m_Layer: 0
   m_Name: Rat 2
   m_TagString: Player
@@ -8018,6 +8018,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cheeseCounter: {fileID: 1634914112}
+--- !u!114 &2082183223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082183221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7249a8b70df184fba458c07f0d4711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &2082183224
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8242,18 +8254,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41a9a0df3fcdb08479aabb1e398b8c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2082183233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082183221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e086630a248984c8e24583b179665b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2082183234
