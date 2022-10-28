@@ -7,13 +7,15 @@ public class MOVIMIENTO : MonoBehaviour
     Rigidbody2D RB2D;
     SpriteRenderer SR;
     Vector3 direction;
-    float MovementSpeed = 1;
+    float MovementSpeed = 20;
     float movVel = 5f;
     float velX;
     float velY;
     bool vista = true;
     Rigidbody2D rigCuerpo;
 
+    private float boostTimer = 0;
+    private bool boosting = false;
   
 
     // Start is called before the first frame update
@@ -24,6 +26,8 @@ public class MOVIMIENTO : MonoBehaviour
          direction = new Vector3 (0,0,0);
 
          rigCuerpo = GetComponent<Rigidbody2D>();
+
+
     }
 
     // Update is called once per frame
@@ -35,6 +39,26 @@ public class MOVIMIENTO : MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal");
         velY = rigCuerpo.velocity.y;
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
+
+        if (boosting)
+        {
+            boostTimer += Time.deltaTime;
+            if (boostTimer >= 1)
+            {
+                MovementSpeed = 20;
+                boostTimer = 0;
+                boosting = false;
+            }
+
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Slower")
+            boosting = true;
+            MovementSpeed = 1;
+            Destroy(other.gameObject);
     }
 
     void LateUpdate()
@@ -57,5 +81,5 @@ public class MOVIMIENTO : MonoBehaviour
 
         transform.localScale = localScale;
     }
-
+ 
 }
