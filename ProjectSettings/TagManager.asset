@@ -9,6 +9,7 @@ TagManager:
   - Llegada
   - ground
   - Slower
+  - Plataforma
   layers:
   - Default
   - TransparentFX
