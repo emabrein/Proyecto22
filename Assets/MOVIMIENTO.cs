@@ -7,7 +7,7 @@ public class MOVIMIENTO : MonoBehaviour
     Rigidbody2D RB2D;
     SpriteRenderer SR;
     Vector3 direction;
-    float MovementSpeed = 20;
+    public float MovementSpeed = 1;
     float movVel = 5f;
     float velX;
     float velY;
@@ -39,7 +39,6 @@ public class MOVIMIENTO : MonoBehaviour
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
     }
 
-    
     void LateUpdate()
     {
         Vector3 localScale = transform.localScale;
