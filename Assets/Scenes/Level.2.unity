@@ -235,7 +235,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 209058775}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
+  m_Material: {fileID: 6200000, guid: 47dbcd1b941ba4b478665b2b79174930, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -367,7 +367,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -491,7 +491,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -886,7 +886,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 342777542}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1156,7 +1156,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 561817216}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1646,7 +1646,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1825,7 +1825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -501.6, y: 203.5}
+  m_AnchoredPosition: {x: -326.46997, y: 142.5}
   m_SizeDelta: {x: 121.37644, y: 37.716267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035285503
@@ -1890,7 +1890,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1113298050}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2430,7 +2430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -527.13, y: 200.06001}
+  m_AnchoredPosition: {x: -351.99997, y: 139.06001}
   m_SizeDelta: {x: 53.78444, y: 38.71771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1480126019
@@ -2557,6 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7249a8b70df184fba458c07f0d4711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MovementSpeed: 1
 --- !u!114 &1561433866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2718,7 +2719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561433860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.41, y: -6.3, z: 0}
+  m_LocalPosition: {x: -13.92, y: -0.4, z: 0}
   m_LocalScale: {x: 1.0357717, y: 1.0230299, z: 1.0301255}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2799,7 +2800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -479.43002, y: 203.50002}
+  m_AnchoredPosition: {x: -304.3, y: 142.5}
   m_SizeDelta: {x: 63.292877, y: 15.835773}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674875496
@@ -2889,7 +2890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -537.1, y: 202.46}
+  m_AnchoredPosition: {x: -361.96994, y: 141.46}
   m_SizeDelta: {x: 33.847645, y: 31.406048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675357320
@@ -3210,7 +3211,7 @@ GameObject:
   - component: {fileID: 1876425135}
   m_Layer: 0
   m_Name: TILE SET_5
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3224,7 +3225,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1876425134}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3346,20 +3347,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.48575154, y: 0.13891022}
-      - {x: 0.48453695, y: 0.11054238}
-      - {x: 0.45987925, y: 0.10998611}
-      - {x: 0.45569938, y: 0.106268704}
-      - {x: 0.4538614, y: 0.014745478}
-      - {x: 0.4232982, y: 0.014036964}
-      - {x: 0.4235284, y: -0.01719701}
-      - {x: 0.36047453, y: -0.018420374}
-      - {x: 0.36038494, y: -0.046983942}
-      - {x: 0.12826112, y: -0.047422945}
-      - {x: 0.12480484, y: -0.047405753}
-      - {x: -0.6405352, y: -0.04709068}
-      - {x: -0.64025366, y: -0.07876496}
-      - {x: -0.6727582, y: -0.07975603}
+    - - {x: 0.48497185, y: 0.14071147}
+      - {x: 0.4843439, y: 0.109390765}
+      - {x: 0.4542172, y: 0.10922797}
+      - {x: 0.45313945, y: 0.016405724}
+      - {x: 0.45284653, y: 0.03585395}
+      - {x: 0.38170314, y: -0.11665703}
+      - {x: -0.10705115, y: -0.079560585}
+      - {x: 0.44699094, y: -0.085787684}
+      - {x: 0.45353532, y: 0.038093153}
+      - {x: 0.3404598, y: -0.04814344}
+      - {x: 0.38398317, y: -0.047273893}
+      - {x: -0.6411204, y: -0.047102246}
+      - {x: -0.64163244, y: -0.078701064}
+      - {x: -0.6712953, y: -0.07927404}
       - {x: -0.671875, y: -0.140625}
       - {x: 0.671875, y: -0.140625}
       - {x: 0.671875, y: 0.140625}
@@ -3562,7 +3563,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2089158663}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
+  m_Material: {fileID: 6200000, guid: 47dbcd1b941ba4b478665b2b79174930, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3865,7 +3866,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2110415312}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a13bc4c3549563e438df755569069ca5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

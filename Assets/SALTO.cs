@@ -6,7 +6,6 @@ public class SALTO : MonoBehaviour
 { 
   
     float velY;
-    bool vista = true;
     public float Salto = 4.5f;
     bool enGround = true;
 

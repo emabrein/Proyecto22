@@ -15,6 +15,9 @@ public class MuerteV2 : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R))
         {
             GetHit();
+            GetHit();
+            GetHit();
+            GetHit();
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
