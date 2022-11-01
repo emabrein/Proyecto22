@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class MuerteV2 : MonoBehaviour
 {
-    public int vida = 3;
+    public int vida;
     public Lives lifeUI;
     
     private void Update()

@@ -22,7 +22,6 @@ public class AnimacionQuieto : MonoBehaviour
         if (Caminar == false && Saltar == false)
         {
             Quieto = true;
-
         }
             
 

@@ -7,13 +7,13 @@ public class Lives : MonoBehaviour
 {
     public Sprite[] corazones;
     Image LifeUI;
-    public int vidas = 3;
+    public int vidas;
 
     // Start is called before the first frame update
     void Start()
     {
         LifeUI = GetComponent<Image>();
-        CambioVida (3);  
+        CambioVida (4);  
     }
 
     // Update is called once per frame

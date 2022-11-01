@@ -6,7 +6,7 @@ public class Invencibilidad : MonoBehaviour
 {
     Renderer rend;
     Color c;
-    public int vida = 3;
+    public int vida;
 
     // Start is called before the first frame update
     void Start()
@@ -18,12 +18,12 @@ public class Invencibilidad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void OnTriggerEnter2D (Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Equals("Invencible") && vida > 0);
+        if (collision.gameObject.CompareTag("Invencible") && vida > 0) ;
         StartCoroutine("GetInvulnerable");
     }
 

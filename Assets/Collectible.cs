@@ -6,7 +6,8 @@ public class Collectible : MonoBehaviour
 {
     private bool isCollected = false;
 
-    public bool Collect(){
+    public bool Collect()
+    {
         if(isCollected)
             return false;   
         
