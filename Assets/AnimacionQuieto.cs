@@ -8,6 +8,7 @@ public class AnimacionQuieto : MonoBehaviour
     bool Quieto = false;
     bool Caminar = false;
     bool Saltar = false;
+    bool Damage = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class AnimacionQuieto : MonoBehaviour
 
     void Update()
     {
-        if (Caminar == false && Saltar == false)
+        if (Caminar == false && Saltar == false && Damage == false)
         {
             Quieto = true;
         }
