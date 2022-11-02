@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PuertaOnTrigger : MonoBehaviour
 {
-    [SerializeField] GameObject PuertaS;
+    [SerializeField] GameObject Puerta1;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        PuertaS.transform.position += new Vector3 (0, -2.36f, 0);
+        Puerta1.transform.position += new Vector3(0, -2.36f, 0);
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        PuertaS.transform.position += new Vector3 (0, 2.36f, 0);
+        Puerta1.transform.position += new Vector3(0, 2.36f, 0);
     }
 }
