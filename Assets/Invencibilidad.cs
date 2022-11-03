@@ -42,8 +42,6 @@ public class Invencibilidad : MonoBehaviour
         Physics.IgnoreLayerCollision(8, 9, false);
         c.a = 1f;
         rend.material.color = c;
-
-
     }
 
 }

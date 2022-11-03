@@ -20,6 +20,7 @@ public class MuerteV2 : MonoBehaviour
             GetHit();
         }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trampa"))

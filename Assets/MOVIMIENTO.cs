@@ -7,8 +7,8 @@ public class MOVIMIENTO : MonoBehaviour
     Rigidbody2D RB2D;
     SpriteRenderer SR;
     Vector3 direction;
-    public float MovementSpeed = 1;
-    float movVel = 5f;
+    float MovementSpeed = 1;
+    public float movVel;
     float velX;
     float velY;
     bool vista = true;
