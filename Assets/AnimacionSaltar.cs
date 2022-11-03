@@ -8,6 +8,7 @@ public class AnimacionSaltar : MonoBehaviour
     bool Saltar = false;
     float velY;
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -32,4 +33,5 @@ public class AnimacionSaltar : MonoBehaviour
         //}
         anim.SetFloat("Y vel", GetComponent<Rigidbody2D>().velocity.y);
     }
+
 }

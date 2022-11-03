@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class AnimacionDamage : MonoBehaviour
+public class AnimacionDamageSaltar : MonoBehaviour
 {
 
     Animator anim;
-    bool Damage = false;
+    bool DamageSaltar = false;
+    bool Saltar = false;
+    public int vida;
 
     // Start is called before the first frame update
     void Start()
@@ -18,21 +19,15 @@ public class AnimacionDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-
-        if (collision.gameObject.CompareTag("Trampa") == true)
+       if (Saltar == true && vida == -1)
         {
-            Damage = true;
-            anim.SetTrigger("tomoDanio");
+            DamageSaltar = true;
+            anim.SetBool("DamageSaltar", true);
         }
-        else
+
+       else
         {
-            
+            DamageSaltar = false;
         }
     }
 }

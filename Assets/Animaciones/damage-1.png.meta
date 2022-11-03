@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: daf9e634ebedbb44b95843a04c7f6ccf
+guid: 162e52cd07af0d1489cc4d6f11d4e770
 TextureImporter:
   fileIDToRecycleName:
-    21300000: blaank_0
+    21300000: damage-1_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,11 +74,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blaank_0
+      name: damage-1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
+        y: 5
         width: 49
         height: 20
       alignment: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d208be90b84da49a4bba1422a989da
+      spriteID: a523d6b5d40f29b4b95c79de3ce75b94
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 32b465ca29bac7846a900b432112c387
+    spriteID: 9418cad87a279a843bd30e8015f731f5
     vertices: []
     indices: 
     edges: []
