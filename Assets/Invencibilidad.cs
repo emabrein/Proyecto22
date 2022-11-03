@@ -39,6 +39,7 @@ public class Invencibilidad : MonoBehaviour
         c.a = 0.5f;
         rend.material.color = c;
         yield return new WaitForSeconds (3f);
+       
         Physics.IgnoreLayerCollision(8, 9, false);
         c.a = 1f;
         rend.material.color = c;
