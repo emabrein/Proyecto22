@@ -35,11 +35,11 @@ public class Invencibilidad : MonoBehaviour
 
     IEnumerator GetInvulnerable()
     {
-        Physics2D.IgnoreLayerCollision(8, 9, true);
+        Physics2D.IgnoreLayerCollision(9, 11, true);
         c.a = 0.5f;
         rend.material.color = c;
-        yield return new WaitForSeconds(3f);
-        Physics.IgnoreLayerCollision(8, 9, false);
+        yield return new WaitForSeconds(4f);
+        Physics.IgnoreLayerCollision(9, 11, false);
         c.a = 1f;
         rend.material.color = c;
     }

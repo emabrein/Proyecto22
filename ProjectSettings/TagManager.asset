@@ -10,6 +10,7 @@ TagManager:
   - ground
   - Plataforma
   - Invencible
+  - Acido
   layers:
   - Default
   - TransparentFX

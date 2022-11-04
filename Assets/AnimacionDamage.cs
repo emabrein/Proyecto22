@@ -25,14 +25,10 @@ public class AnimacionDamage : MonoBehaviour
     {
         
 
-        if (collision.gameObject.CompareTag("Trampa") == true)
+        if (collision.gameObject.CompareTag("Trampa") == true || collision.gameObject.CompareTag("Acido"))
         {
             Damage = true;
             anim.SetTrigger("tomoDanio");
-        }
-        else
-        {
-            
         }
     }
 }

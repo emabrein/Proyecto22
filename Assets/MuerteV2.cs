@@ -25,6 +25,14 @@ public class MuerteV2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trampa"))
             GetHit();
+
+        else if(collision.gameObject.CompareTag("Acido"))
+        {
+            GetHit();
+            GetHit();
+            GetHit();
+            GetHit();
+        }
     }
     public void GetHit()
     {
