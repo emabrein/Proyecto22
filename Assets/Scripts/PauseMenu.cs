@@ -39,6 +39,10 @@ public class PauseMenu : MonoBehaviour
     pauseMenuUI.SetActive(true);
     Time.timeScale = 0f;
   }
+  public void playGame1()
+    {
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
   public void Retry()
   {
@@ -46,9 +50,9 @@ public class PauseMenu : MonoBehaviour
       Time.timeScale = 1f;
   }
 
-  public void BackToMenu()
-  {
-      Application.LoadLevel("INICIO1");
-  }
+  // public void BackToMenu()
+  // {
+  //     Application.LoadLevel(INICIO1);
+  // }
 
 }
