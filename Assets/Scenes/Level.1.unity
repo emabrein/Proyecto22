@@ -3416,6 +3416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botonPausa: {fileID: 1009496795}
   pauseMenuUI: {fileID: 1044236551}
+  botonPlayLCDLL: {fileID: 0}
 --- !u!4 &1059025378
 Transform:
   m_ObjectHideFlags: 0
@@ -5247,8 +5248,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551471812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.959, y: -3.584, z: 0}
-  m_LocalScale: {x: 1.9227134, y: 2.2755246, z: 2.618625}
+  m_LocalPosition: {x: -19.892, y: -3.584, z: 0}
+  m_LocalScale: {x: 1.9777867, y: 2.2755246, z: 2.618625}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 34
