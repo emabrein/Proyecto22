@@ -7,26 +7,21 @@ public class SceneSwitcher : MonoBehaviour
 {
     public void showHistoria()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
     public void hideHistoria()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
+
     public void playGame1()
+    {
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+    public void playGame2()
     {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
-    public void exitGame1()
-    {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
-    }
-    public void tryAgain()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-    }
-    public void backToMenu()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
-    }
+   
 }

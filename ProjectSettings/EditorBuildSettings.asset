@@ -6,17 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level.2.unity
-    guid: ba05769e23fb19f4f80a6a0b5406e8d6
-  - enabled: 1
-    path: Assets/Scenes/Moriste.TryAgain.unity
-    guid: b0e4638192290a84db6b6041533cdce3
+    path: Assets/Scenes/INICIO1.unity
+    guid: c79a23e90abb73049b42f690af029367
   - enabled: 1
     path: Assets/Scenes/Level.1.unity
     guid: ab070ab8861ee3a44b84de115be037ae
   - enabled: 1
-    path: Assets/Scenes/Inicio.unity
-    guid: 5ab6c1bc7e215c84fae43d0335e126a8
+    path: Assets/Scenes/Level.2.unity
+    guid: ba05769e23fb19f4f80a6a0b5406e8d6
   - enabled: 1
     path: Assets/Scenes/Historia.unity
     guid: 60e53f81ce4c30946b40b2ca074dfb04
