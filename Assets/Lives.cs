@@ -13,7 +13,7 @@ public class Lives : MonoBehaviour
     void Start()
     {
         LifeUI = GetComponent<Image>();
-        CambioVida (4);  
+        CambioVida(4);  
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class Lives : MonoBehaviour
 
     public void CambioVida( int pos)
     {
-        LifeUI.sprite = corazones [pos];
+        LifeUI.sprite = corazones[pos];
     }
 
 }

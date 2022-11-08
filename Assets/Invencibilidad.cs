@@ -8,7 +8,7 @@ public class Invencibilidad : MonoBehaviour
     Color c;
     public int vida;
 
-    public GameObject pocion;
+    GameObject pocion;
 
     // Start is called before the first frame update
     void Start()
@@ -27,19 +27,19 @@ public class Invencibilidad : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Invencible") && vida > 0)
         {
-            StartCoroutine("GetInvulnerable");
+            StartCoroutine(GetInvulnerable());
+            pocion = collision.gameObject;
             Destroy(pocion);
         }
-        
     }
 
     IEnumerator GetInvulnerable()
     {
-        Physics2D.IgnoreLayerCollision(9, 11, true);
+        GetComponent<MuerteV2>().invincible = true;
         c.a = 0.5f;
         rend.material.color = c;
         yield return new WaitForSeconds(4f);
-        Physics.IgnoreLayerCollision(9, 11, false);
+        GetComponent<MuerteV2>().invincible = false;
         c.a = 1f;
         rend.material.color = c;
     }

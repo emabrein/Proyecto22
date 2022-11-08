@@ -25,7 +25,9 @@ public class AnimacionDamage : MonoBehaviour
     {
         
 
-        if (collision.gameObject.CompareTag("Trampa") == true || collision.gameObject.CompareTag("Acido"))
+        if((collision.gameObject.CompareTag("Trampa")
+         || collision.gameObject.CompareTag("Acido")) 
+         && !GetComponent<MuerteV2>().invincible)
         {
             Damage = true;
             anim.SetTrigger("tomoDanio");

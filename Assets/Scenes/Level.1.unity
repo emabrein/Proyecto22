@@ -1229,7 +1229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236581521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.217, y: -2.594, z: 0}
+  m_LocalPosition: {x: -25.34, y: -2.64, z: 0}
   m_LocalScale: {x: 0.20059428, y: 0.21286131, z: 0.20129767}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5373,7 +5373,7 @@ GameObject:
   - component: {fileID: 1551471813}
   m_Layer: 0
   m_Name: TILE SET NIVEL 2_0
-  m_TagString: Acido
+  m_TagString: Trampa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6937,6 +6937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 2
   lifeUI: {fileID: 498286339}
+  invincible: 0
 --- !u!114 &2082183231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6999,7 +7000,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 2
-  pocion: {fileID: 236581521}
 --- !u!114 &2082183236
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,42 +9,42 @@ public class MuerteV2 : MonoBehaviour
 {
     public int vida;
     public Lives lifeUI;
-    
+    public bool invincible;
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.R))
         {
-            GetHit();
-            GetHit();
-            GetHit();
-            GetHit();
+            GetHit(4);
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trampa"))
-            GetHit();
+            GetHit(1);
 
         else if(collision.gameObject.CompareTag("Acido"))
         {
-            GetHit();
-            GetHit();
-            GetHit();
-            GetHit();
+            GetHit(4);
         }
     }
-    public void GetHit()
+    public void GetHit(int dmg)
     {
+        if (invincible)
+        {
+            Debug.Log("invincible");
+            return;
+        }
+        Debug.Log("hurt");
         if (vida > 0)
         {
-            vida--;
+            vida-= dmg;
             lifeUI.CambioVida(vida);
         }
         else if (vida <= 0)
         {
             Thread.Sleep(100);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
