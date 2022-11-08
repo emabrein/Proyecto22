@@ -22,7 +22,11 @@ public class LlegadaFinal : MonoBehaviour
         }
     }
 
-    
+    private void CompleteLevel()
+    {
+        WinMenu.SetActive(true);
+        Time.timeScale = 0f;
+    }
     
         //     void LlegadaFinal.OnTriggerEnter2D (Collider2D collision)
         // {
@@ -39,7 +43,7 @@ public class LlegadaFinal : MonoBehaviour
     }
     public void BackToMenu()
   {
-    //   Application.LoadLevel("INICIO1");
+       SceneManager.LoadScene("INICIO1");
   }
   public void Retry()
   {

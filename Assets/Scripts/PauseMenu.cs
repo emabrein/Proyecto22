@@ -50,9 +50,9 @@ public class PauseMenu : MonoBehaviour
       Time.timeScale = 1f;
   }
 
-  // public void BackToMenu()
-  // {
-  //     Application.LoadLevel(INICIO1);
-  // }
+  public void BackToMenu()
+  {
+     SceneManager.LoadScene("INICIO1");
+  }
 
 }
