@@ -6,6 +6,9 @@ public class EfectoQueso : MonoBehaviour
 {
 
     private AudioSource audioSource;
+    [SerializeField] private AudioClip colectar1;
+    [SerializeField] private AudioClip colectar2;
+
 
     private void Start()
     {
@@ -16,7 +19,8 @@ public class EfectoQueso : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            audioSource.Play();
+            audioSource.PlayOneShot(colectar2);
+
         }
     }
 }
