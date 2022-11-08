@@ -5,16 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Llegada : MonoBehaviour
 {
+    
+    private AudioSource SonidoLlegada;
     private void Start()
     {
-        //finishSound = GetComponent<AudioSource>();
+        SonidoLlegada = GetComponent<AudioSource>();
     }
     
     private void OnTriggerEnter2D (Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
-            // finishSound.Play();
+            SonidoLlegada.Play();
             Invoke("CompleteLevel", 2f);
         }
     }
@@ -23,6 +25,7 @@ public class Llegada : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
 
 
 }
