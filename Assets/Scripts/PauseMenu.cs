@@ -1,40 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour 
 {
+  // menu de pausa del primer nivel
 
-  public static bool GameIsPaused = false;
-  public GameObject PauseMenuUI;
+  [SerializeField] public GameObject botonPausa;
+  [SerializeField] public GameObject pauseMenuUI;
+  [SerializeField] public GameObject botonPlayLCDLL;
   
-  
-  void Update () 
-  {
-    if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == false)
-    {
-        Pause();
-    }
-    
-    else if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused)
-      {
-          Resume();
-      }
-  }
-
    
-  void Resume()
+  public void showHistoria()
   {
-    PauseMenuUI.SetActive(false);
-    Time.timeScale = 1f;
-    GameIsPaused = false;
+    botonPausa.SetActive(true);
+    pauseMenuUI.SetActive(false);
+    botonPlayLCDLL.SetActive(true);
   }
 
-  void Pause()
+  public void hideHistoria()
   {
-    PauseMenuUI.SetActive(true);
+    botonPausa.SetActive(false);
+    pauseMenuUI.SetActive(true);
+    botonPlayLCDLL.SetActive(false);
+  }
+  
+  public void Continue()
+  {
+    botonPausa.SetActive(true);
+    pauseMenuUI.SetActive(false);
+    Time.timeScale = 1f;
+  }
+
+  public void Pause()
+  {
+    botonPausa.SetActive(false);
+    pauseMenuUI.SetActive(true);
     Time.timeScale = 0f;
-    GameIsPaused = true;
+  }
+
+  public void Retry()
+  {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+  }
+
+  public void BackToMenu()
+  {
+      Application.LoadLevel("INICIO1");
   }
 
 }
