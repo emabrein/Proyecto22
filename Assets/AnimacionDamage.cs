@@ -8,11 +8,13 @@ public class AnimacionDamage : MonoBehaviour
 
     Animator anim;
     bool Damage = false;
+    AudioSource SoundDamage;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        SoundDamage = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,11 +27,10 @@ public class AnimacionDamage : MonoBehaviour
     {
         
 
-        if((collision.gameObject.CompareTag("Trampa")
-         || collision.gameObject.CompareTag("Acido")) 
-         && !GetComponent<MuerteV2>().invincible)
+        if((collision.gameObject.CompareTag("Trampa")) && !GetComponent<MuerteV2>().invincible)
         {
             Damage = true;
+            SoundDamage.Play();
             anim.SetTrigger("tomoDanio");
         }
     }

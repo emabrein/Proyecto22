@@ -24,6 +24,7 @@ public class SALTO : MonoBehaviour
             {
                 GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, Salto);
                 enGround = false;
+                
             }
 
         }
