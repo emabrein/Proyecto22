@@ -17,7 +17,7 @@ public class Llegada : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             SonidoLlegada.Play();
-            Invoke("CompleteLevel", 2f);
+            Invoke("CompleteLevel", 1f);
         }
     }
 
