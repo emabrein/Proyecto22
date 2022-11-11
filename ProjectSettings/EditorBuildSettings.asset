@@ -13,8 +13,14 @@ EditorBuildSettings:
     guid: ab070ab8861ee3a44b84de115be037ae
   - enabled: 1
     path: Assets/Scenes/Level.2.unity
-    guid: ba05769e23fb19f4f80a6a0b5406e8d6
-  - enabled: 0
-    path: Assets/Scenes/Historia.unity
-    guid: 60e53f81ce4c30946b40b2ca074dfb04
+    guid: 0f5898c6c36542845856775af42276fc
+  - enabled: 1
+    path: Assets/Scenes/Players.unity
+    guid: fdd5d9a3e6d26e44ea7fa92169984e65
+  - enabled: 1
+    path: Assets/Scenes/Level.1v2.unity
+    guid: ed0ac26fc0b02024598583427d121796
+  - enabled: 1
+    path: Assets/Scenes/Level.2v2.unity
+    guid: 596a498a93996db4ab0c91599b0d8793
   m_configObjects: {}

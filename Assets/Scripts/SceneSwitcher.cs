@@ -5,23 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public void showHistoria()
+    public void Players()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
-    }
-    public void hideHistoria()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+         SceneManager.LoadScene("Players");
     }
 
-    public void playGame1()
+    public void Play1()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Level.1");
+        Time.timeScale = 1f;
+    }
+
+    public void Play2()
+    {
+        SceneManager.LoadScene("Level.1v2");
+        Time.timeScale = 1f;
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("INICIO1");
     }
     
-    public void playGame2()
-    {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-    }
-   
 }
