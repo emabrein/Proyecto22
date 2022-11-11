@@ -33,5 +33,12 @@ public class AnimacionDamage : MonoBehaviour
             SoundDamage.Play();
             anim.SetTrigger("tomoDanio");
         }
+
+        else if ((collision.gameObject.CompareTag("Acido")) && !GetComponent<MuerteV2>().invincible)
+        {
+            Damage = true;
+            SoundDamage.Play();
+            anim.SetTrigger("tomoDanio");
+        }
     }
 }
