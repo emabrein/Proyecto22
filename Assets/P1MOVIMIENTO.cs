@@ -34,7 +34,7 @@ public class P1MOVIMIENTO : MonoBehaviour
         transform.position += direction * Time.deltaTime * MovementSpeed;
 
         velY = rigCuerpo.velocity.y;
-        velX = Input.GetAxisRaw("Horizontal");
+        velX = Input.GetAxisRaw("HorizontalP1");
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
         
     }
