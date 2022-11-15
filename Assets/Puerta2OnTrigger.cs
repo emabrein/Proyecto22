@@ -9,6 +9,7 @@ public class Puerta2OnTrigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         Puerta2.transform.position += new Vector3(-2, 0, 0);
+        
     }
 
 }

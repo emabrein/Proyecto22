@@ -1935,7 +1935,7 @@ GameObject:
   - component: {fileID: 649978094}
   - component: {fileID: 649978097}
   m_Layer: 0
-  m_Name: Pincho En Movimiento
+  m_Name: PinchoMov
   m_TagString: Trampa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2066,7 +2066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 2012700123}
-  - {fileID: 0}
+  - {fileID: 1339726497}
   speed: 0.5
 --- !u!1 &663861697
 GameObject:
@@ -2274,8 +2274,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698922309}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0.00007022825}
-  m_LocalPosition: {x: -0.426, y: -1.51, z: 0}
-  m_LocalScale: {x: 2.9560483, y: 0.5456485, z: 5.836203}
+  m_LocalPosition: {x: -0.426, y: -1.404, z: 0}
+  m_LocalScale: {x: 2.9560483, y: 1.1029625, z: 5.836203}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 39
@@ -5011,7 +5011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550247292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.56, y: 6.188, z: 9.853103}
+  m_LocalPosition: {x: 7.81, y: 6.42, z: 9.853103}
   m_LocalScale: {x: 5.57, y: 6.363179, z: 3.5167322}
   m_Children: []
   m_Father: {fileID: 1119329310}
