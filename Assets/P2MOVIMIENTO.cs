@@ -36,6 +36,7 @@ public class P2MOVIMIENTO : MonoBehaviour
         transform.position += direction * Time.deltaTime * MovementSpeed;
 
         velY = rigCuerpo.velocity.y;
+        velX = Input.GetAxisRaw("HorizontalP2");
         rigCuerpo.velocity = new Vector2 (velX * movVel, velY);
         
     }

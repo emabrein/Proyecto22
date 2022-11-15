@@ -25,7 +25,7 @@ public class Invencibilidad : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Invencible") && vida > 0)
+        if (collision.gameObject.CompareTag("Invencible") && vida >= 0)
         {
             StartCoroutine(GetInvulnerable());
             pocion = collision.gameObject;
