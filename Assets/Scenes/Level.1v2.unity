@@ -377,7 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441b1f776718f0f499dae4ccdee568dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundQueso: {fileID: 0}
 --- !u!1 &52205342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,7 +1417,7 @@ GameObject:
   - component: {fileID: 272325782}
   m_Layer: 0
   m_Name: Player 2
-  m_TagString: Player
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4888,7 +4887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441b1f776718f0f499dae4ccdee568dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundQueso: {fileID: 0}
 --- !u!1 &1401953695
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,7 +6095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441b1f776718f0f499dae4ccdee568dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundQueso: {fileID: 0}
 --- !u!1 &1681236153
 GameObject:
   m_ObjectHideFlags: 0
@@ -6720,7 +6717,7 @@ GameObject:
   - component: {fileID: 2082183223}
   m_Layer: 0
   m_Name: Player 1
-  m_TagString: Player
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

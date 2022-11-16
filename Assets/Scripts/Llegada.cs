@@ -14,7 +14,7 @@ public class Llegada : MonoBehaviour
     
     private void OnTriggerEnter2D (Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player1" && collision.gameObject.name == "Player2")
         {
             SonidoLlegada.Play();
             Invoke("CompleteLevel", 1f);

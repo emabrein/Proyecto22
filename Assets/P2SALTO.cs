@@ -42,6 +42,11 @@ public class P2SALTO : MonoBehaviour
             {
                 enGround = true;
             }
+
+            else if (collision.transform.tag == "Player1")
+            {
+                enGround = true;
+            }
         }
     }
 }
