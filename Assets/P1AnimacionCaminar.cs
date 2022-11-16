@@ -18,14 +18,14 @@ public class P1AnimacionCaminar : MonoBehaviour
     {
       if ((Input.GetKeyDown(KeyCode.A) || (Input.GetKeyDown(KeyCode.D))))
       {
-        Caminar = true;
+        bool Caminar = true;
         anim.SetBool("Caminar", true);
       
       }
 
       else if ((Input.GetKeyUp(KeyCode.A) || (Input.GetKeyUp(KeyCode.D) || (Input.GetKeyUp(KeyCode.LeftArrow) || (Input.GetKeyUp(KeyCode.RightArrow))))))
       {
-        Caminar = false;
+        bool Caminar = false;
         anim.SetBool("Caminar", false);
       }
        
