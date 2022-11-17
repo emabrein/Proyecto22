@@ -8,12 +8,18 @@ public class Collectible : MonoBehaviour
 
     public bool Collect()
     {
-        if(isCollected)
-            return false;   
-        
-        isCollected = true;
-        Destroy(gameObject);
-        return true;
+        if (isCollected)
+        {
+            return false;
+
+        }
+
+        else
+        {
+            isCollected = true;
+            Destroy(gameObject);
+            return true;
+        }
 
     }
 }

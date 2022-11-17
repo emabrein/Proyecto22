@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class P2MOVIMIENTO : MonoBehaviour
 {
+
+    GameObject Player1;
+
     Rigidbody2D RB2D;
     SpriteRenderer SR;
     Vector3 direction;
@@ -61,6 +64,6 @@ public class P2MOVIMIENTO : MonoBehaviour
 
         transform.localScale = localScale;
     }
- 
+
 }
 

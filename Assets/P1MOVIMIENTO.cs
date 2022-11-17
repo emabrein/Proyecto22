@@ -60,9 +60,5 @@ public class P1MOVIMIENTO : MonoBehaviour
         transform.localScale = localScale;
     }
  
-    void Raycasting()
-    {
-        Physics2D.IgnoreLayerCollision(10)
-    }
 }
 
