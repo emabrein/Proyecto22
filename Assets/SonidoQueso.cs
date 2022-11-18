@@ -14,7 +14,7 @@ public class SonidoQueso : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Collectible"))
+        if (collision.gameObject.CompareTag("Collectible") == true)
         {
 
             SoundQueso.Play();
