@@ -47,7 +47,7 @@ public class LlegadaFinal : MonoBehaviour
   }
   public void Retry()
   {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+      SceneManager.LoadScene("Level.1");
       Time.timeScale = 1f;
   }
 }

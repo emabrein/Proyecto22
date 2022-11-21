@@ -19,4 +19,5 @@ public class PataformaSticky : MonoBehaviour
             collision.gameObject.transform.SetParent(null);
         }
     }
+
 }
