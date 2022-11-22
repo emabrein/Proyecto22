@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class LlegadaV1 : MonoBehaviour
+public class Llegada2v2 : MonoBehaviour
 {
     
     private AudioSource SonidoLlegada;

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Threading;
 using UnityEngine.UI;
 
 public class MuerteV2 : MonoBehaviour
@@ -10,6 +9,8 @@ public class MuerteV2 : MonoBehaviour
     public int vida;
     public Lives lifeUI;
     public bool invincible;
+
+    [SerializeField] GameObject OverMenu;
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.R))
@@ -43,8 +44,9 @@ public class MuerteV2 : MonoBehaviour
         }
         else if (vida <= 0)
         {
-            Thread.Sleep(100);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        OverMenu.SetActive(true);
+        Time.timeScale = 0f;
         }
     }
+
 }
