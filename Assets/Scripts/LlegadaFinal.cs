@@ -5,36 +5,36 @@ using UnityEngine.SceneManagement;
 public class LlegadaFinal : MonoBehaviour
 {
     private AudioSource SonidoLlegada;
+    private AudioSource MusicaFinal;
+    private AudioSource Wii;
     
     [SerializeField] GameObject WinMenu;
      
     private void Start()
     {
         SonidoLlegada = GetComponent<AudioSource>();
+        MusicaFinal = GetComponent<AudioSource>();
     }
     
     private void OnTriggerEnter2D (Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
+            Wii.Pause();
             SonidoLlegada.Play();
             Invoke("CompleteLevel", 2f);
+            MusicaFinal.Play();
         }
     }
 
     private void CompleteLevel()
     {
+        
         WinMenu.SetActive(true);
         Time.timeScale = 0f;
     }
     
-        //     void LlegadaFinal.OnTriggerEnter2D (Collider2D collision)
-        // {
-        // if (collision.gameObject.name == "Player")
-        // {
-        //     WinMenu.SetActive(true);
-        // }
-        // }
+     
     
 
     public void QuitGame()
