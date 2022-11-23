@@ -6,24 +6,23 @@ public class LlegadaFinal : MonoBehaviour
 {
     private AudioSource SonidoLlegada;
     private AudioSource MusicaFinal;
-    private AudioSource Wii;
-    
+    private AudioSource GTA;
     [SerializeField] GameObject WinMenu;
      
     private void Start()
     {
         SonidoLlegada = GetComponent<AudioSource>();
         MusicaFinal = GetComponent<AudioSource>();
+        GTA = GetComponent<AudioSource>();
     }
     
     private void OnTriggerEnter2D (Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
-            Wii.Pause();
             SonidoLlegada.Play();
             Invoke("CompleteLevel", 2f);
-            MusicaFinal.Play();
+            
         }
     }
 
@@ -56,4 +55,15 @@ public class LlegadaFinal : MonoBehaviour
       SceneManager.LoadScene("Level.1v2");
       Time.timeScale = 1f;
   }
+
+  public void Ganaste()
+  {
+      MusicaFinal.Play();
+  }
+
+  
+    public void OverGTA()
+    {
+        GTA.Play();
+    }
 }
