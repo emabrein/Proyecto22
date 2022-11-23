@@ -22,7 +22,7 @@ private void Start()
 
      private void CompleteLevel()
      {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+         SceneManager.LoadScene("Level.1v2");
      }
 
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class LlegadaFinal : MonoBehaviour
+public class LlegadaFinal2 : MonoBehaviour
 {
     private AudioSource SonidoLlegada;
     
@@ -15,7 +15,7 @@ public class LlegadaFinal : MonoBehaviour
     
     private void OnTriggerEnter2D (Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player2")
         {
             SonidoLlegada.Play();
             Invoke("CompleteLevel", 2f);
@@ -28,15 +28,6 @@ public class LlegadaFinal : MonoBehaviour
         Time.timeScale = 0f;
     }
     
-        //     void LlegadaFinal.OnTriggerEnter2D (Collider2D collision)
-        // {
-        // if (collision.gameObject.name == "Player")
-        // {
-        //     WinMenu.SetActive(true);
-        // }
-        // }
-    
-
     public void QuitGame()
     {
          Application.Quit();
@@ -48,12 +39,6 @@ public class LlegadaFinal : MonoBehaviour
   public void Retry()
   {
       SceneManager.LoadScene("Level.1");
-      Time.timeScale = 1f;
-  }
-
-  public void Retry2()
-  {
-      SceneManager.LoadScene("Level.1v2");
       Time.timeScale = 1f;
   }
 }
