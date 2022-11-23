@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 public class LlegadaFinal2 : MonoBehaviour
 {
     private AudioSource SonidoLlegada;
+    private AudioSource Wii;
+    private AudioSource MusicaFinal;
     
     [SerializeField] GameObject WinMenu;
      
@@ -18,7 +20,9 @@ public class LlegadaFinal2 : MonoBehaviour
         if (collision.gameObject.name == "Player2")
         {
             SonidoLlegada.Play();
+            Wii.Stop();
             Invoke("CompleteLevel", 2f);
+            MusicaFinal.Play();
         }
     }
 
