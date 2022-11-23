@@ -2844,20 +2844,20 @@ GameObject:
   - component: {fileID: 710549832}
   - component: {fileID: 710549831}
   - component: {fileID: 710549830}
-  - component: {fileID: 710549829}
-  - component: {fileID: 710549828}
   - component: {fileID: 710549827}
   - component: {fileID: 710549826}
   - component: {fileID: 710549825}
-  - component: {fileID: 710549824}
   - component: {fileID: 710549823}
   - component: {fileID: 710549822}
   - component: {fileID: 710549821}
   - component: {fileID: 710549820}
   - component: {fileID: 710549819}
+  - component: {fileID: 710549829}
+  - component: {fileID: 710549828}
+  - component: {fileID: 710549824}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Player
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912450a56b75e1249a3346e807f7c8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 2
+  vida: 1
 --- !u!95 &710549821
 Animator:
   serializedVersion: 3
@@ -3023,9 +3023,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 710549818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42fc3b747bd6ea4449adcdc066ca676e, type: 3}
+  m_Script: {fileID: 11500000, guid: 97509021858b12f4091a5bd2b4371001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Salto: 4.5
 --- !u!114 &710549825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3063,8 +3064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ef1a596c036f84b88d4349cb8a27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 2
-  lifeUI: {fileID: 1674875498}
+  vida: 1
+  lifeUI: {fileID: 0}
   invincible: 0
   OverMenu: {fileID: 0}
 --- !u!114 &710549828
@@ -3076,10 +3077,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 710549818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29206300ccbace6469a0e0c7d2f07640, type: 3}
+  m_Script: {fileID: 11500000, guid: f6d9cbe9f1880844a8643dd4b7480854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Salto: 4.5
+  movVel: 4.2
 --- !u!114 &710549829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3089,10 +3090,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 710549818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7249a8b70df184fba458c07f0d4711, type: 3}
+  m_Script: {fileID: 11500000, guid: 948f10fe231f7f047b186896e2766d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movVel: 4.2
 --- !u!60 &710549830
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4251,8 +4251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -326.46997, y: 142.5}
-  m_SizeDelta: {x: 121.37644, y: 37.716267}
+  m_AnchoredPosition: {x: -359.61, y: 142.5}
+  m_SizeDelta: {x: 55.091866, y: 37.716267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035285503
 MonoBehaviour:
@@ -5941,20 +5941,20 @@ GameObject:
   - component: {fileID: 1561433870}
   - component: {fileID: 1561433869}
   - component: {fileID: 1561433868}
-  - component: {fileID: 1561433865}
-  - component: {fileID: 1561433867}
   - component: {fileID: 1561433866}
   - component: {fileID: 1561433863}
   - component: {fileID: 1561433862}
-  - component: {fileID: 1561433861}
   - component: {fileID: 1561433864}
   - component: {fileID: 1561433875}
   - component: {fileID: 1561433872}
   - component: {fileID: 1561433874}
   - component: {fileID: 1561433876}
+  - component: {fileID: 1561433867}
+  - component: {fileID: 1561433865}
+  - component: {fileID: 1561433861}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Player
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5968,7 +5968,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1561433860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42fc3b747bd6ea4449adcdc066ca676e, type: 3}
+  m_Script: {fileID: 11500000, guid: c3777fc8b812ee9498ede6f336b0af34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1561433862
@@ -6017,10 +6017,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1561433860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7249a8b70df184fba458c07f0d4711, type: 3}
+  m_Script: {fileID: 11500000, guid: a11269b88d6c5194bbf4df87bb42de86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movVel: 4.2
+  Salto: 4.5
 --- !u!114 &1561433866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6033,8 +6033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ef1a596c036f84b88d4349cb8a27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 2
-  lifeUI: {fileID: 1674875498}
+  vida: 1
+  lifeUI: {fileID: 0}
   invincible: 0
   OverMenu: {fileID: 0}
 --- !u!114 &1561433867
@@ -6046,10 +6046,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1561433860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29206300ccbace6469a0e0c7d2f07640, type: 3}
+  m_Script: {fileID: 11500000, guid: eebc758c40144ba4a9d0493afe95ebc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Salto: 4.5
+  movVel: 4.2
 --- !u!60 &1561433868
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6242,7 +6242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912450a56b75e1249a3346e807f7c8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 2
+  vida: 1
 --- !u!114 &1561433875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6781,96 +6781,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1674875494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1674875495}
-  - component: {fileID: 1674875497}
-  - component: {fileID: 1674875496}
-  - component: {fileID: 1674875498}
-  m_Layer: 5
-  m_Name: corazones
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1674875495
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674875494}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1751888408}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -304.3, y: 142.5}
-  m_SizeDelta: {x: 63.292877, y: 15.835773}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1674875496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674875494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &1674875497
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674875494}
-  m_CullTransparentMesh: 0
---- !u!114 &1674875498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674875494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b060bfaec4307479f4eeae3688a580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  corazones:
-  - {fileID: 21300004, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
-  - {fileID: 21300002, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
-  - {fileID: 21300000, guid: 0287bbdc718b2334092f41d9ffbd75fe, type: 3}
-  vidas: 2
 --- !u!1 &1675357318
 GameObject:
   m_ObjectHideFlags: 0
@@ -7147,7 +7057,6 @@ RectTransform:
   - {fileID: 1035285502}
   - {fileID: 1480126018}
   - {fileID: 1675357319}
-  - {fileID: 1674875495}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
