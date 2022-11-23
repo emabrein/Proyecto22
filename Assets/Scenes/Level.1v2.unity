@@ -1706,7 +1706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ef1a596c036f84b88d4349cb8a27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
+  vida: 0
   lifeUI: {fileID: 0}
   invincible: 0
   OverMenu: {fileID: 2099948755}
@@ -7763,7 +7763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ef1a596c036f84b88d4349cb8a27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
+  vida: 0
   lifeUI: {fileID: 0}
   invincible: 0
   OverMenu: {fileID: 2099948755}

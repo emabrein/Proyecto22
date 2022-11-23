@@ -2601,8 +2601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 2012700123}
-  - {fileID: 0}
-  speed: 0.5
+  - {fileID: 1339726497}
+  speed: 1
 --- !u!1 &663861697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,7 +3191,7 @@ MonoBehaviour:
   vida: 1
   lifeUI: {fileID: 0}
   invincible: 0
-  OverMenu: {fileID: 0}
+  OverMenu: {fileID: 1873044459}
 --- !u!114 &710549828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5390,7 +5390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339726497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.5191, y: -8.42, z: 19.810547}
+  m_LocalPosition: {x: -12.5191, y: -9, z: 19.810547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6523,7 +6523,7 @@ MonoBehaviour:
   vida: 1
   lifeUI: {fileID: 0}
   invincible: 0
-  OverMenu: {fileID: 0}
+  OverMenu: {fileID: 1873044459}
 --- !u!114 &1561433867
 MonoBehaviour:
   m_ObjectHideFlags: 0
