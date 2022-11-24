@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class LlegadaFinal2 : MonoBehaviour
 {
     private AudioSource SonidoLlegada;
-    private AudioSource Wii;
+    private AudioSource GTA;
     private AudioSource MusicaFinal;
     
     [SerializeField] GameObject WinMenu;
@@ -13,6 +13,8 @@ public class LlegadaFinal2 : MonoBehaviour
     private void Start()
     {
         SonidoLlegada = GetComponent<AudioSource>();
+        MusicaFinal = GetComponent<AudioSource>();
+        GTA = GetComponent<AudioSource>();
     }
     
     private void OnTriggerEnter2D (Collider2D collision)
@@ -20,18 +22,16 @@ public class LlegadaFinal2 : MonoBehaviour
         if (collision.gameObject.name == "Player2")
         {
             SonidoLlegada.Play();
-            Wii.Stop();
-            Invoke("CompleteLevel", 2f);
+            Invoke("Complete", 2f);
             MusicaFinal.Play();
         }
     }
 
-    private void CompleteLevel()
+    private void Complete()
     {
         WinMenu.SetActive(true);
         Time.timeScale = 0f;
     }
-    
     public void QuitGame()
     {
          Application.Quit();
@@ -42,7 +42,11 @@ public class LlegadaFinal2 : MonoBehaviour
   }
   public void Retry()
   {
-      SceneManager.LoadScene("Level.1");
+      SceneManager.LoadScene("Level.1v2");
       Time.timeScale = 1f;
+  }
+  public void OverGTA()
+  {
+      GTA.Play();
   }
 }

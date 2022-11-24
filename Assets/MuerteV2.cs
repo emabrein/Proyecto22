@@ -44,9 +44,8 @@ public class MuerteV2 : MonoBehaviour
         }
         else if (vida <= 0)
         {
-        OverMenu.SetActive(true);
-        Time.timeScale = 0f;
+            OverMenu.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
-
 }
